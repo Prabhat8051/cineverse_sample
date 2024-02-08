@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cineverse Web Automation Testing">
+	<listeners>
+		<listener class-name="com.cineverse.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Regression Testing">
+		<classes>
+			<class name="com.cineverse.qa.testcases.HomePageTest"></class>
+
+		</classes>
+	</test>
+</suite>
