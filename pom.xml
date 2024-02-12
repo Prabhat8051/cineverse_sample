@@ -12,11 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-     <configuration>
-      <suitexmlFiles>
-        <suitexmlFile> src\main\resource\testng.xml</suitexmlFile>
-      </suitexmlFiles>
-    </configuration>
+        <suitexmlFile> src\main\resource\testng.xml </suitexmlFile>
   </properties>
 
 
