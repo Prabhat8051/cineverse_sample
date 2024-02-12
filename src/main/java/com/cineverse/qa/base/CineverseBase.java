@@ -39,9 +39,10 @@ public class CineverseBase {
 	 }
 		  driver.manage().window().maximize();
 		  driver.manage().deleteAllCookies();
-		  driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		  driver.get(prop.getProperty("url"));
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		  
 		 
 		
 		
