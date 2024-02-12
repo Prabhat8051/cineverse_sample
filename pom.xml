@@ -14,6 +14,21 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+<plugin>
+  <groupId> org.apache.maven.plugins </groupId>
+  
+  <artifcatId> maven-surefire-plugin </artifactId>
+
+    <configuration>
+      <suitexmlFiles>
+        <suitexmlFile> src\main\resource\testng.xml</suitexmlFile>
+      </suitexmlFiles>
+    </configuration>
+</plugin>
+
+
+
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
