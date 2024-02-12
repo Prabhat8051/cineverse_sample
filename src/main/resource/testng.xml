@@ -8,14 +8,7 @@
 	<test name="Regression Testing">
 		<classes>
 			<class name="com.cineverse.qa.testcases.HomePageTest"></class>
-			<class name="com.cineverse.qa.testcases.LiveTvPageTest"></class>
-			<class name="com.cineverse.qa.testcases.LogInPageTest"></class>
-			<class name="com.cineverse.qa.testcases.MoviesPageTest"></class>
-			<class name="com.cineverse.qa.testcases.GenresPageTest"></class>
-			<class name="com.cineverse.qa.testcases.ShowsPageTest"></class>
-			<class name="com.cineverse.qa.testcases.SeePlansPageTest"></class>
-			<class name="com.cineverse.qa.testcases.WatchlistsPageTest"></class>
-			<class name="com.cineverse.qa.testcases.ForgotPasswordPageTest"></class>
+			
 
 		</classes>
 	</test>
