@@ -8,12 +8,20 @@
     <classes>
       <class name="com.cineverse.qa.testcases.HomePageTest">
         <methods>
-          <include name="ValidatePromoSubscribeButtonIsDisplayedTest"/>
-          <include name="ValidatePromoBannerTextTest"/>
+          <include name="ValidateLoneStarIsDisplayedTest"/>
+          <include name="ValidateClickOnWatchListsTest"/>
+          <include name="ValidateTheElvisPresleyChannelIsDisplayedTest"/>
+          <include name="ValidateScreamBoxIsDisplayedTest"/>
+          <include name="ValidateSoRealIsDisplayedTest"/>
+          <include name="ValidateTheFilmDetectiveIsDisplayedTest"/>
+          <include name="ValidateMidNightPulpIsDiplayedTest"/>
+          <include name="ValidateDocuramaIsDisplayedTest"/>
+          <include name="ValidateConTvIsDisplayedTest"/>
+          <include name="ValidateTheBobRossChannelIsDisplayedTest"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="ValidateElreyNetworkTest"/>
           <include name="VaildateActionShelfWatchTrailerButtonIsDisplayedTest"/>
-          <include name="ValidatePromoTitleIsDisplayedTest"/>
         </methods>
       </class> <!-- com.cineverse.qa.testcases.HomePageTest -->
     </classes>

@@ -1,5 +1,7 @@
 package com.cineverse.qa.testcases;
 
+import static org.testng.Assert.assertTrue;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,6 +11,7 @@ import com.cineverse.qa.pages.GenresPage;
 import com.cineverse.qa.pages.HomePage;
 import com.cineverse.qa.pages.LiveTvPage;
 import com.cineverse.qa.pages.LogInPage;
+import com.cineverse.qa.pages.MoviesPage;
 import com.cineverse.qa.pages.Search;
 import com.cineverse.qa.pages.WatchlistsPage;
 
@@ -21,6 +24,7 @@ public class HomePageTest extends CineverseBase {
 	GenresPage genrespage;
 	Search search;
 	WatchlistsPage watchlistspage;
+	MoviesPage moviespage;
 	
 	public HomePageTest()
 	{
@@ -162,31 +166,234 @@ public class HomePageTest extends CineverseBase {
 		livetvpage=homepage.ValidateClickOnLiveTv();
 	}
 	
+	
 	@Test(priority=18)
+	public void ValidateClickonMoviesTest()
+	{
+		moviespage=homepage.ValidateClickonMovies();
+	}
+	
+	
+	@Test(priority=19)
 	public void ValidateClickOnGenresTest()
 	{
 		genrespage= homepage.ValidateClickOnGenres();	
 	}
 	
-	@Test(priority=19)
+	@Test(priority=20)
 	public void ValidateClickOnWatchListsTest()
 	{
 		watchlistspage = homepage.ValidateClickOnWatchLists();
 	}
 	
 	
-	@Test(priority=20)
+	@Test(priority=21)
 	public void ValidateClickonSearch()
 	{
 		search= homepage.ValidateClickonSearch();
 	}
 	
 	
-	@Test(priority=21)
+	@Test(priority=22)
 	public void ValidateClickOnlogInPageTest()
 	{
 		loginpage= homepage.ValidateClickOnlogInPage();
 	}
+	
+	
+	@Test(priority=23)
+	public void ValidateDocuramaIsDisplayedTest()
+	{
+		boolean flag=homepage.ValidateDocuramaIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=24)
+	public void ValidateTheFilmDetectiveIsDisplayedTest()
+	{
+		boolean flag=homepage.ValidateTheFilmDetectiveIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=25)
+	public void ValidateConTvIsDisplayedTest()
+	{
+		boolean flag=homepage.ValidateConTvIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=26)
+	public void ValidateSoRealIsDisplayedTest()
+	{
+		boolean flag=homepage.ValidateSoRealIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	
+	@Test(priority=27)
+	public void ValidateSoDramaticIsDisplayedTest()
+	{
+		boolean flag=homepage.ValidateSoDramaticIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=28)
+	public void ValidateTheThreeStoogesIsDisplayedTest()
+	{
+		 boolean flag=homepage.ValidateTheThreeStoogesIsDisplayed();
+		 Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=29)
+	public void ValidateAsianCrushIsDisplayedTest()
+	{
+		boolean flag = homepage.ValidateAsianCrushIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=30)
+	public void ValidateFandorIsDisplayedTest()
+	{
+		boolean flag = homepage.ValidateFandorIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=31)
+	public void ValidateDoveChannelIsDisplayedTest()
+	{
+		boolean flag = homepage.ValidateDoveChannelIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=32)
+	public void ValidateGustoTvIsDisplayedTest()
+	{
+		boolean flag = homepage.ValidateGustoTvIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=33)
+	public void ValidateRetroCrushIsDisplayedTest()
+	{
+		boolean flag = homepage.ValidateRetroCrushIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	public void ValidateComedyDynamicsIsDisplayed()
+	{
+		boolean flag = homepage.ValidateComedyDynamicsIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+
+	
+	@Test(priority=34)
+	public void ValidateTheElvisPresleyChannelIsDisplayedTest()
+	{
+		boolean flag=homepage.ValidateTheElvisPresleyChannelIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=35)
+	public void ValidateTheBobRossChannelIsDisplayedTest()
+	{
+		boolean flag = homepage.ValidateTheBobRossChannelIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=36)
+	public void ValidateMidNightPulpIsDiplayedTest()
+	{
+		boolean flag = homepage.ValidateMidNightPulpIsDiplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=37)
+	public void ValidateScreamBoxIsDisplayedTest()
+	{
+		boolean flag = homepage.ValidateScreamBoxIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	@Test(priority=38)
+	public void ValidateElreyNetworkTest()
+	{
+	boolean flag=homepage.ValidateElreyNetwork();
+	Assert.assertTrue(flag);
+	}
+	
+	
+	
+	@Test(priority=39)
+	public void ValidateLoneStarIsDisplayedTest()
+	{
+		boolean flag = homepage.ValidateLoneStarIsDisplayed();
+		Assert.assertTrue(flag);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

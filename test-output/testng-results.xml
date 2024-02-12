@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-08T19:52:29 IST" name="Default suite" finished-at="2024-02-08T19:52:35 IST" duration-ms="6103">
+  <suite started-at="2024-02-12T11:13:49 IST" name="Default suite" finished-at="2024-02-12T11:13:56 IST" duration-ms="6799">
     <groups>
     </groups>
-    <test started-at="2024-02-08T19:52:29 IST" name="Default test" finished-at="2024-02-08T19:52:35 IST" duration-ms="6103">
-      <class name="com.cineverse.qa.testcases.LogInPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.cineverse.qa.testcases.LogInPageTest@533bda92]" started-at="2024-02-08T19:52:29 IST" name="setup" finished-at="2024-02-08T19:52:35 IST" duration-ms="5894" status="PASS">
+    <test started-at="2024-02-12T11:13:49 IST" name="Default test" finished-at="2024-02-12T11:13:56 IST" duration-ms="6799">
+      <class name="com.cineverse.qa.testcases.ForgotPasswordPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cineverse.qa.testcases.ForgotPasswordPageTest@723ca036]" started-at="2024-02-12T11:13:49 IST" name="setup" finished-at="2024-02-12T11:13:56 IST" duration-ms="6596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ValidateLoginButtonIsDisplayedTest()[pri:1, instance:com.cineverse.qa.testcases.LogInPageTest@533bda92]" started-at="2024-02-08T19:52:35 IST" name="ValidateLoginButtonIsDisplayedTest" finished-at="2024-02-08T19:52:35 IST" duration-ms="48" status="PASS">
+        <test-method signature="ValidateSubmitButtonIsDisplayedTest()[pri:3, instance:com.cineverse.qa.testcases.ForgotPasswordPageTest@723ca036]" started-at="2024-02-12T11:13:56 IST" name="ValidateSubmitButtonIsDisplayedTest" finished-at="2024-02-12T11:13:56 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateLoginButtonIsDisplayedTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cineverse.qa.testcases.LogInPageTest@533bda92]" started-at="2024-02-08T19:52:35 IST" name="teardown" finished-at="2024-02-08T19:52:35 IST" duration-ms="101" status="PASS">
+        </test-method> <!-- ValidateSubmitButtonIsDisplayedTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cineverse.qa.testcases.ForgotPasswordPageTest@723ca036]" started-at="2024-02-12T11:13:56 IST" name="teardown" finished-at="2024-02-12T11:13:56 IST" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.cineverse.qa.testcases.LogInPageTest -->
+      </class> <!-- com.cineverse.qa.testcases.ForgotPasswordPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

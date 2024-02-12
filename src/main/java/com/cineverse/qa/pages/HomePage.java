@@ -61,13 +61,96 @@ public class HomePage extends CineverseBase {
 	@FindBy(xpath="//div[@class='swiper-button-next']")
 	WebElement channelrightswipetbutton;
 	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[1]")
+	WebElement docurama;
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[2]")
+	WebElement thefilmdetective;
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[3]")
+	WebElement contv;
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[4]")
+	WebElement soreal    ;
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[5]")
+	WebElement sodramatic   ;
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[6]")
+	WebElement thethreestooges;
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[7]")
+	WebElement  asiancrush ;
 	
 	
 	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[8]")
+	WebElement fandor ;
+	
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[9]")
+	WebElement  dovechannel;
+	
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[10]")
+	WebElement  gustotv  ;
+	
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[11]")
+	WebElement retrocrush    ;
+	
+	
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[12]")
+	WebElement comedydynamics;
+	
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[13]")
+	WebElement   theelvispresleychannel ;
+	
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[14]")
+	WebElement thebobrosschannel ;
+	
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[15]")
+	WebElement midnightpulp  ;
+	
+	
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[16]")
+	WebElement  screambox;
+	
+	
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[17]")
+	WebElement  elreynetwork ;
+	
+	
+	
+	@FindBy(xpath="(//div[@class='cineverse_item_holder curson-pointer'])[18]")
+	WebElement  lonestar   ;
+	
+	
+
 	public HomePage ()
 	{
 		PageFactory.initElements(driver, this);
 	}
+	
+	
 	
 	
 	
@@ -220,6 +303,126 @@ public class HomePage extends CineverseBase {
 
 
 
+     // Validating Channels are visible on home screen or not
+     
+     
+     public boolean ValidateDocuramaIsDisplayed()
+     {
+    	 return docurama.isDisplayed();
+     }
+     
+     
+     public boolean ValidateTheFilmDetectiveIsDisplayed()
+     {
+    	 return thefilmdetective.isDisplayed();
+     }
+     
+     
+     public boolean ValidateConTvIsDisplayed()
+     {
+    	 return contv.isDisplayed();
+     }
+     
+     
+     public boolean ValidateSoRealIsDisplayed()
+     {
+    	 return soreal.isDisplayed();
+     }
+     
+     
+     public boolean ValidateSoDramaticIsDisplayed()
+     {
+    	 return sodramatic.isDisplayed();
+     }
+     
+     
+     public boolean ValidateTheThreeStoogesIsDisplayed()
+     {
+    	 return thethreestooges.isDisplayed();
+     }
+     
+     
+     public boolean ValidateAsianCrushIsDisplayed()
+     {
+    	 return asiancrush.isDisplayed();
+     }
+     
+     
+     public boolean ValidateFandorIsDisplayed()
+     {
+    	 return fandor.isDisplayed();
+     }
+     
+     
+     public boolean ValidateDoveChannelIsDisplayed()
+     {
+    	 return dovechannel.isDisplayed();
+     }
+     
+     
+     
+     public boolean ValidateGustoTvIsDisplayed()
+     {
+    	 return gustotv.isDisplayed();
+    	 
+     }
+     
+     
+     public boolean ValidateRetroCrushIsDisplayed()
+     {
+    	 return retrocrush.isDisplayed();
+     }
+     
+     
+     
+     public boolean ValidateComedyDynamicsIsDisplayed()
+     {
+    	 return comedydynamics.isDisplayed();
+     }
+     
+     
+     public boolean ValidateTheElvisPresleyChannelIsDisplayed()
+     {
+    	 return theelvispresleychannel.isDisplayed();
+     }
+     
+     public boolean ValidateTheBobRossChannelIsDisplayed()
+     {
+    	 return thebobrosschannel.isDisplayed();
+     }
+     
+     
+     public boolean ValidateMidNightPulpIsDiplayed()
+     {
+    	 return midnightpulp.isDisplayed();
+     }
+     
+     
+     
+     public boolean ValidateScreamBoxIsDisplayed()
+     {
+    	 return screambox.isDisplayed();
+     }
+     
+     
+     public boolean ValidateElreyNetwork()
+     {
+    	 return elreynetwork.isDisplayed();
+     }
+     
+     
+     public boolean ValidateLoneStarIsDisplayed()
+     {
+    	 return lonestar.isDisplayed();
+     }
+     
+     
+     
+     
+     
+     
+     
+     
 }
 	
 
