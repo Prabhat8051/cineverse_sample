@@ -41,7 +41,6 @@ public class CineverseBase {
 		  driver.manage().deleteAllCookies();
 		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		  driver.get(prop.getProperty("url"));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		  
 		 
 		
